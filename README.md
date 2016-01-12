@@ -8,6 +8,7 @@
 <li>Launch an EC2 Linux instance. For my 100Mbps connection I find that a t2.nano with Amazon Linux works well.</li>
 <li>Configure your SSH client to tunnel to your EC2 instance when connected. Instructions <a href="https://www.skyverge.com/blog/how-to-set-up-an-ssh-tunnel-with-putty/">PUTTY</a> <a href="http://www.bu.edu/tech/support/research/system-usage/getting-started/port-forwarding/">MobaXterm</a></li>
 <li>Set your Windows Internet Options to use the correct local port to tunnel to your SOCKS5 Proxy. A guide for this can be found <a href="http://windows.microsoft.com/en-us/windows/change-internet-explorer-proxy-server-settings">here</a>.</li>
+<li>Have the <a href"https://aws.amazon.com/powershell/">AWS PowerShell</a> package installed and profile setup on your local machine.</li>
 </ul>
 
 
