@@ -3,7 +3,7 @@
 $ins=""
 $regKey="HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings"
 # Input your path to PUTTY.EXE here
-$putty="C:\Users\Taylor\Desktop\Downloads\putty\PUTTY.EXE"
+$putty=""
 # Input your AWS PS profile here
 $profile=""
 # Input your AWS region here
