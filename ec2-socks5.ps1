@@ -1,5 +1,4 @@
 # Variables
-
 # Put in your SOCKS5 EC2 Linux instance ID here
 $ins=""
 $regKey="HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings"
