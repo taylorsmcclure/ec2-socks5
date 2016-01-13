@@ -8,7 +8,6 @@ $putty=""
 $profile=""
 # Input your AWS region here
 $region=""
-$wininet = Add-Type -memberDefinition $source -passthru -name InternetSettings
 $source=@"
 
 [DllImport("wininet.dll")]
@@ -16,6 +15,7 @@ $source=@"
 public static extern bool InternetSetOption(int hInternet, int dwOption, int lpBuffer, int dwBufferLength);  
 
 "@
+$wininet = Add-Type -memberDefinition $source -passthru -name InternetSettings
 
 # Import AWS for PS and loads profile and region
 Import-Module "C:\Program Files (x86)\AWS Tools\PowerShell\AWSPowerShell\AWSPowerShell.psd1"
